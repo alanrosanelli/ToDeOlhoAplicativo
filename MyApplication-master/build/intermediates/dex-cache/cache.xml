@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_c8643d62f104b680cdcc9eb5e6bf60d403c724f0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_34ba6100dfb438e0bf32f84da131ad8f54cb9035\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a610d126c8b8a21feb1496e0ffe1494a4b58acb1">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a2309e2a370db94966964cc94c668f1276c0156c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_17df141cde82a26ef3cabcbfaaaff862480f8f90\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_5e5de962ee775f0073c74687ee5fca28c89a2e9b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.14.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7cb8f70e66bdc25ee66ab8351a4e7214b6517aa8">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.14.0_1f8d6d5adab3a0d0973725f0eb3e19a9f698135c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.4.0_3246209ef2be988019ea00f6c305d5324d5fc7ba\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_66f8eed7174c039fc59674738a9b1910278f2aa9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_c777da3d9cd067585171023d5fe5943605579abd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_8855f843d502a3a7293ee50a13f6779e33b9553b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="708cb8a64dec585dfa3d824c871b46d58412f950">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a1b71bc4af0ebdc0ea5042d044c9048054b30c25\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_e871faeedd20778620957a21ad01afe9f38c1256\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_fe01d5741924af6eb522bd9ea75a476cea8b9b90\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_202b5b09dba420b4291927947a93795351c16bb4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.5.2\ecf534dba3a8446ce84cbb797d314763be212a68\glide-3.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.5.2_73f8043233974a9a9c94ed8ab6e6bc9574e84f06\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\alan_\Documents\GitHub\app\MyApplication-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_46056bbf2fbe6dc808fdecf3413b91c2f9647147\classes.dex" />
+    </item>
+
+</items>
