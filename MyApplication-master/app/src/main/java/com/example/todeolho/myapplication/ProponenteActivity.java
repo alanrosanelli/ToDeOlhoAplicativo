@@ -68,8 +68,24 @@ public class ProponenteActivity extends AppCompatActivity implements NavigationV
 
         TextView txtPesquisa = (TextView) findViewById(R.id.txtMunicipio);
 
-        String restURL = "http://api.convenios.gov.br/siconv/v1/consulta/proponentes.json?id_municipio=" + idMunicipio;
-        new RestOperation().execute(restURL);
+//        String restURL = "http://api.convenios.gov.br/siconv/v1/consulta/proponentes.json?id_municipio=" + idMunicipio;
+//        new RestOperation().execute(restURL);
+
+        Proponente proponente =  new Proponente();
+
+        proponente.setId("1");
+        proponente.setCnpj("92034930");
+        proponente.setNome("nome");
+        proponente.setMunicipio("municipio");
+        proponente.setEndereco("endereço");
+        proponente.setCep("95600-000");
+        proponente.setNomeresponsavel("nome_responsavel");
+        proponente.setCpfresponsavel("03244869017");
+        proponente.setTelefone("9286-3245");
+        proponente.setInscricaoestadual("3143151351");
+        proponente.setInscricaomunicipal("2454225");
+        proponenteLista.add(proponente.getNome());
+        proponenteListaObjeto.add(proponente);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,proponenteLista);
 
@@ -203,29 +219,29 @@ public class ProponenteActivity extends AppCompatActivity implements NavigationV
 
                 try {
                     jsonResponse = new JSONObject(content);
-
-                    JSONArray jsonArray = jsonResponse.optJSONArray("proponentes");
-
-                    for (int i = 0; i < jsonArray.length(); i++) {
-                        JSONObject child = jsonArray.getJSONObject(i);
-
-                        Proponente proponente =  new Proponente();
-
-                        proponente.setId(child.getString("id"));
-                        proponente.setCnpj(child.getString("cnpj"));
-                        proponente.setNome(child.getString("nome"));
-                        proponente.setMunicipio(municipio);
-                        proponente.setEndereco(child.getString("endereco"));
-                        proponente.setCep(child.getString("cep"));
-                        proponente.setNomeresponsavel(child.getString("nome_responsavel"));
-                        proponente.setCpfresponsavel(child.getString("cpf_responsavel"));
-                        proponente.setTelefone(child.getString("telefone"));
-                        proponente.setInscricaoestadual(child.getString("inscricao_estadual"));
-                        proponente.setInscricaomunicipal(child.getString("inscricao_municipal"));
-                        proponenteLista.add(proponente.getNome());
-                        proponenteListaObjeto.add(proponente);
-
-                    }
+//
+//                    JSONArray jsonArray = jsonResponse.optJSONArray("proponentes");
+//
+//                    for (int i = 0; i < jsonArray.length(); i++) {
+//                        JSONObject child = jsonArray.getJSONObject(i);
+//
+//                        Proponente proponente =  new Proponente();
+//
+//                        proponente.setId(child.getString("id"));
+//                        proponente.setCnpj(child.getString("cnpj"));
+//                        proponente.setNome(child.getString("nome"));
+//                        proponente.setMunicipio(municipio);
+//                        proponente.setEndereco(child.getString("endereco"));
+//                        proponente.setCep(child.getString("cep"));
+//                        proponente.setNomeresponsavel(child.getString("nome_responsavel"));
+//                        proponente.setCpfresponsavel(child.getString("cpf_responsavel"));
+//                        proponente.setTelefone(child.getString("telefone"));
+//                        proponente.setInscricaoestadual(child.getString("inscricao_estadual"));
+//                        proponente.setInscricaomunicipal(child.getString("inscricao_municipal"));
+//                        proponenteLista.add(proponente.getNome());
+//                        proponenteListaObjeto.add(proponente);
+//
+//                   }
 
 
                     ListView lv= (ListView) findViewById(R.id.list);
