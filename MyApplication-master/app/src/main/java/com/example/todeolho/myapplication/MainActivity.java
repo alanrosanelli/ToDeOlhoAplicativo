@@ -25,8 +25,13 @@ public class MainActivity extends AppCompatActivity implements OnItemClickListen
     AutoCompleteTextView textView=null;
     private ArrayAdapter<String> adapter;
 
-    String item[]={
-            "Taquara - RS - 13466","Parobe - RS - 13579","Igrejinha - RS - 15963"
+
+//    String item[]={
+//            "Taquara - RS - 13466","Parobe - RS - 13579","Igrejinha - RS - 15963"
+//    };
+
+        String item[]={
+            "Taquara - RS","Tabai - RS","Tapejara - RS","Tapera - RS","Tapes - RS","Taquari - RS","Parobe - RS","Igrejinha - RS"
     };
 
     @Override
@@ -67,15 +72,17 @@ public class MainActivity extends AppCompatActivity implements OnItemClickListen
 
                 TextView txtPesquisa = (TextView) findViewById(R.id.txtMunicipio);
 
-                String[] municipio = txtPesquisa.getText().toString().split("-");
-                String nomeMunicipio = municipio[0];
-                String uf = municipio[1];
-                String idMunicipio = municipio[2];
+//                String[] municipio = txtPesquisa.getText().toString().split("-");
+//                String nomeMunicipio = municipio[0];
+//                String uf = municipio[1];
+//                String idMunicipio = municipio[2];
+
+                String nomeMunicipio = txtPesquisa.getText().toString();
 
                 Bundle bundle = new Bundle();
                 bundle.putString("nomeMunicipio", nomeMunicipio);
-                bundle.putString("uf", uf);
-                bundle.putString("idMunicipio", idMunicipio);
+//                bundle.putString("uf", uf);
+//                bundle.putString("idMunicipio", idMunicipio);
 
                 Intent secondActivity = new Intent(MainActivity.this, ProponenteActivity.class);
                 startActivity(secondActivity.putExtras(bundle));

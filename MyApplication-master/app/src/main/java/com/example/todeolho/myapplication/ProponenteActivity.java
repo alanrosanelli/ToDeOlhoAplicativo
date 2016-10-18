@@ -62,7 +62,7 @@ public class ProponenteActivity extends AppCompatActivity implements NavigationV
         navigationView.setNavigationItemSelectedListener(this);
 
         Bundle bundle = this.getIntent().getExtras();
-        String idMunicipio = bundle.getString("idMunicipio").trim();
+       // String idMunicipio = bundle.getString("idMunicipio").trim();
         municipio = bundle.getString("nomeMunicipio").trim();
 
 
